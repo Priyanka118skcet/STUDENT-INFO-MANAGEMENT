@@ -1,0 +1,66 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .login_form {
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .gogo {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  span {
+    color: #ff0000;
+    font-size: 14px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .btn {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .btn-secondary {
+    background: #fe6600;
+    color: #fff;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background: #f55600;
+  }
